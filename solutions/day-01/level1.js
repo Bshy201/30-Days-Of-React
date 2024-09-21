@@ -43,11 +43,7 @@ itCompanies.forEach(element => {
 console.log(itCompanies[0] + ', ' +itCompanies[1] + ', ' +itCompanies[2] + ', ' +itCompanies[3] + ', ' +itCompanies[4] + ', ' +itCompanies[5] + ', and ' +itCompanies[6] + ' are big it companies.')
 
 //13.
-if (itCompanies.includes('Google')){
-     console.log('Company found')
-} else {
-    console.log('Company not found')
-}
+itCompanies.includes('Google') ? console.log('Company found') : console.log('Company not found')
 
 //14.
 
@@ -78,5 +74,4 @@ console.log(itCompanies)
 itCompanies.pop()
 console.log(itCompanies)
 //23.
-
 console.log(itCompanies.splice())
